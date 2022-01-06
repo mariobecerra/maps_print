@@ -6,6 +6,8 @@ library(here)
 
 basel_region = read.csv(here("data/basel_region_box_coords.csv"))
 
+font = "Monaco"
+
 river_basel_filename = here("out/river_basel.rds")
 railway_basel_filename = here("out/railway_basel.rds")
 med_streets_basel_filename = here("out/med_streets_basel.rds")
